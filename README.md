@@ -24,22 +24,7 @@
 <summary>Translations in progress:</summary>
 
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
-- [Bahasa Indonesia](https://github.com/jwasham/coding-interview-university/issues/101)
-- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
-- [French](https://github.com/jwasham/coding-interview-university/issues/89)
-- [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
-- [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
-- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
-- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
-- [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
-- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
-- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
-- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
-- [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82
 
 </details>
 
@@ -429,14 +414,6 @@ OR:
     - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
     - aka CLR, sometimes CLRS, because Stein was late to the game
 
-- [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
-    - The first couple of chapters present clever solutions to programming problems (some very old using data tape) but
-      that is just an intro. This a guidebook on program design and architecture, much like Code Complete, but much shorter.
-
-- ~~"Algorithms and Programming: Problems and Solutions" by Shen~~
-    - A fine book, but after working through problems on several pages I got frustrated with the Pascal, do while loops, 1-indexed arrays, and unclear post-condition satisfaction results.
-    - Would rather spend time on coding problems from another book or online coding problems.
-
 </details>
 
 ## Before you Get Started
@@ -618,6 +595,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+         
+    -[ ] [Array Tech interview](https://www.techinterviewhandbook.org/algorithms/array/)
+    -[ ] [Strings Tech interview](https://www.techinterviewhandbook.org/algorithms/string/)
+  
 
 - ### Linked Lists
     - [ ] Description:
@@ -630,6 +611,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] [Tech Interview Handbook](https://www.techinterviewhandbook.org/algorithms/linked-list/)
     - [ ] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
@@ -656,6 +638,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+    - [ ] [Tech interview Handbook](https://www.techinterviewhandbook.org/algorithms/stack/)
     - [ ] Will not implement. Implementing with array is trivial.
 
 - ### Queue
@@ -663,6 +646,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+    - [ ] [Tech interview Handbook](https://www.techinterviewhandbook.org/algorithms/queue/)
     - [ ] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
@@ -699,7 +683,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] distributed hash tables:
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
-
+    - [ ] [Tech interview handbook](https://www.techinterviewhandbook.org/algorithms/hash-table/)
     - [ ] implement with array using linear probing
         - hash(k, m) - m is size of hash table
         - add(key, value) - if key already exists, update value
@@ -708,7 +692,14 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - remove(key)
 
 </details>
+###Neetcode
+- [ ] Arrays and Hashing
+- [ ]Two pointers
+- [ ] Stack
+- [ ]Sliding Windows
+- [ ]Linked List
 
+<details></details>
 ## More Knowledge
 
 <details>
